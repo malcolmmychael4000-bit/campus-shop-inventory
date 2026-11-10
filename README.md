@@ -1,39 +1,32 @@
-# campus-shop-inventory
+campus-shop-inventory
 
-# Campus Shop Inventory Management System
+Campus Shop Inventory Management System
 
-**Course:** Object-Oriented Programming (BUC2125), BBC II, AY 2026/2027
-**Assessment:** Group Take-Home Project (30 marks), deadline 12 November 2026
-**Language:** Java
+Course: Object-Oriented Programming (BUC2125), BBC II, AY 2026/2027
+Assessment: Group Take-Home Project (30 marks), deadline 12 November 2026
+Language: Java
 
-## Group members
+Group members
+1. NAKAVUBU OLIVIA  25/U/15402/PS 
+2. IRAGUHA SHELYZE  25/U/15048/EVE 
+3. MUGONYA RONALD  25/U/15257/PS 
+4. NAMIRO MIRIAM  25/U/15472/EVE
+5. SSENKUMBI MALCOLM M  25/U/15668/PS 
 
-| No. | Name | Registration No. | Contribution |
-|-----|------|------------------|--------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-
-## What the application does
-
+What the application does
 A console application for a campus shop attendant. It stores product details,
 displays them, updates a product's price and stock quantity, and rejects
 invalid values such as a negative price.
 
-## Project structure
-
-```
+Project structure
 CampusShopInventory/
 └── src/
     └── campusshop/
         ├── Product.java   (private attributes, constructor, getters, setters with validation)
         └── Main.java      (creates five Product objects and demonstrates the system)
-```
 
-## How to run
 
+How to run
 ### Eclipse
 
 1. Create a Java Project named `CampusShopInventory`.
@@ -42,17 +35,13 @@ CampusShopInventory/
 4. Right-click `Main.java`, choose **Run As > Java Application**.
 5. The output appears in the **Console** tab.
 
-### Command line (JDK 17 or later)
+Command line (JDK 17 or later)
 
 Open a terminal in the `src` folder and run:
-
-```
 javac campusshop/*.java
 java campusshop.Main
-```
 
 ## Validation rules
-
 | Attribute | Rule |
 |-----------|------|
 | Unit price | Must be greater than zero (negative prices are rejected) |
